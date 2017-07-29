@@ -1,0 +1,45 @@
+/*I know I should put h1,h2,h3,h4,and p here, but that was part of my spec sheep question on slack*/
+/*h1, h2, h3, h4, p{
+  font-family: Helvetica;
+}
+*/
+h3, h4, p{
+  font-family: Helvetica;
+
+}
+h1{
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+/*Had some fun here trying to remember how to go up one level in the tree evn though I didn't have to*/
+  background-image: url("../images/pattern.jpeg");
+
+}
+.item1 h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+
+}
+/*these were originally classes, but I made them ID's*/
+#brushes{
+  background-color: mediumspringgreen;
+
+}
+#frames{
+  background-color: lightcoral;
+
+}
+#paint{
+  background-color: skyblue;
+
+}
+/*I don't like useing <span> in the descriptor <p> but this is class for it..*/
+.cost{
+  font-weight: bold;
+  color: blue;
+
+}
